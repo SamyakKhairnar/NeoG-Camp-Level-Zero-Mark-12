@@ -1,0 +1,93 @@
+body{
+    background-color: #97aabd;
+}
+.link{
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navigation {
+    background-color: #314455;
+    color: white;
+    padding: 5px;   
+    text-align: center;
+    margin-inline-start: -0.2rem;
+    margin-block-start: -0.2rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.link{
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 2rem 0px 2rem;
+}
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+.navigation .link {
+    color: white;
+    transition: 0.4s;
+}
+
+.navigation .link:hover{
+    color: #f43f5e;
+    font-weight: 500;
+}
+
+.navigation .link-active {
+    font-weight: 600;
+    border: 2px solid #f43f5e;
+    border-radius: 5px;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #314455;
+    justify-content: center;
+  }
+  .footer p{
+    margin-top: 1rem;
+    margin-bottom: auto;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+ 
+  .list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: center;
+
+  }
+  
+  .list-item-inlines {
+    display: inline-block;
+    width: 2rem;
+    margin: auto;
+  }
+ 
+  .links .fa-brands{
+    color: white;
+    font-size: 1.2rem;
+    transition: .4s;
+  }
+  .links .fa-brands:hover {
+    color: #f43f5e;
+  }
