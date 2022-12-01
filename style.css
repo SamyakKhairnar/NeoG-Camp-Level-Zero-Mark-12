@@ -89,6 +89,7 @@ h3{
     margin: auto;
     padding: 0px 5px 0px 5px;
     border: 2px solid #f43f5e;
+    border-radius: 5px;
 }
 
 label{
