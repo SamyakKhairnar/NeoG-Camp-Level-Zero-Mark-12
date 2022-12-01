@@ -30,7 +30,91 @@
     </nav>
 </div>
 
+  <div class="process">
+    <form class="quiz-form">
+      <h1>Quiz on Triangles</h1>
 
+      <div class="quiz-container">
+        <p>
+          1] What is the Third Angle for the Triangle where Angle 1 = 45° & Angle 2 = 45°
+        </p>
+
+        <div class="options">
+          <input required type="radio" name="ques1" value="45" />
+          <label>45°</label>
+          <input required type="radio" name="ques1" value="60" />
+          <label>60°</label>
+          <input required type="radio" name="ques1" value="90" />
+          <label>90°</label>
+        </div>
+      </div>
+
+      <div class="quiz-container">
+        <p>
+          2] An isosceles triangle has _________
+        </p>
+
+        <div class="options">
+          <input required type="radio" name="ques2" value="no-congruent-sides" />
+          <label> No congruent sides</label>
+          <input required type="radio" name="ques2" value="2-congruent-sides" />
+          <label> 2 congruent sides</label>
+          <input required type="radio" name="ques2" value="3-congruent-sides" />
+          <label> 3 Congruent Sides</label>
+        </div>
+      </div>
+
+      <div class="quiz-container">
+        <p>
+          3] Which of the following triangles are always similar ?
+        </p>
+
+        <div class="options">
+          <input required type="radio" name="ques3" value="equilateral-triangle" />
+          <label>Equilateral triangle</label>
+          <input required type="radio" name="ques3" value="isosceles-triangle" />
+          <label>Isosceles triangle</label>
+          <input required type="radio" name="ques3" value="scalene" />
+          <label>Scalene</label>
+        </div>
+      </div>
+      
+      <div class="quiz-container">
+        <p>
+          4] If one angle of a triangle is 50° and second angle is 30°,then what type of triangle it is ?
+        </p>
+
+        <div class="options">
+          <input required type="radio" name="ques4" value="acute" />
+          <label>Acute</label>
+          <input required type="radio" name="ques4" value="obtuse" />
+          <label>Obtuse</label>
+          <input required type="radio" name="ques4" value="right-angled" />
+          <label>Right-Angled</label>
+        </div>
+      </div>
+
+      <div class="quiz-container">
+        <p>
+          5] All 3 interior angles of a triangle add up to ____ ?
+        </p>
+
+        <div class="options">
+          <input required type="radio" name="ques5" value="90-degrees" />
+          <label>90 degrees</label>
+          <input required type="radio" name="ques5" value="180-degrees" />
+          <label>180 degrees</label>
+          <input required type="radio" name="ques5" value="360-degrees" />
+          <label>360 degrees</label>
+        </div>
+      </div>
+
+    </form>
+
+    <button class="button-primary" id="check-btn">Check</button>
+    <h2 id="output"></h2>
+
+  </div>
 
     <div class='footer'>
         <p>Copyright &#169; 2022 All Rights Reserved</p>
@@ -57,7 +141,6 @@
             </li>
           </ul>
       </div>
-
-
+    <script src="/script/quiz.js"></script>
 </body>
 </html>
