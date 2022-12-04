@@ -3,8 +3,8 @@ const button = document.querySelector("#check-btn");
 const message = document.querySelector("#check-triangle");
 
 button.addEventListener("click", function validate() {
-	if (angles[0].value === "" || angles[1].value === "" || angles[2].value === "") {
-        message.innerText = "* All Three Inputs are Required to Check ! *";
+	if (angles[0].value <=0 || angles[1].value <=0 || angles[2].value <=0) {
+        message.innerText = "* Inputs should be Greater than Zero ! *";
 	} else {
 		const sumTriangle = sumOfAngles();
 		isTriangle(sumTriangle);

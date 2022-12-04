@@ -5,8 +5,8 @@ const message = document.querySelector("#check-area");
 
 button.addEventListener('click', function validate(){
     
-    if (base.value === "" || height.value === "") {
-        message.innerText = "* All Inputs are Required to Check ! *";
+    if (Number(base.value) <=0 || Number(height.value) <=0) {
+        message.innerText = "* Inputs should be Greater than Zero ! *";
 	} else {
 		const sum = multiply(Number(base.value), Number(height.value));
 		calculateArea(sum);

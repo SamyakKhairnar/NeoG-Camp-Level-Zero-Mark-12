@@ -5,8 +5,8 @@ const message = document.querySelector("#check-length");
 
 button.addEventListener('click', function validate(){
     
-    if (sideA.value === "" || sideB.value === "") {
-        message.innerText = "* All Inputs are Required to Check ! *";
+    if (Number(sideA.value) <= 0 || Number(sideB.value) <= 0) {
+        message.innerText = "* Inputs should be Greater than Zero ! *";
 	} else {
 		const sum = calculateSqr(Number(sideA.value), Number(sideB.value));
 		calculateLength(sum);
